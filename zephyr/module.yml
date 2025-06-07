@@ -1,4 +1,4 @@
-name: my-shields-enigma2
+name: zmk-keyboard-Enigma_02
 build:
   settings:
     board_root: .
