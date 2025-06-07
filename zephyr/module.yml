@@ -1,0 +1,4 @@
+name: zmk-keyboard-Enigma_02
+build:
+  settings:
+    board_root: .
