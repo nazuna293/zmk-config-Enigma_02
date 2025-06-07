@@ -1,8 +1,8 @@
 file_format: "1"
-id: enigma
+id: Enigma_02
 name: Enigma_02
 type: shield
-url: "https://github.com/enigma-key/zmk-config"
+url: "https://github.com/enigma-key/my-shields-enigma2"
 requires:
   - seeeduino_xiao_ble
 features:
