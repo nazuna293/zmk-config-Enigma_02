@@ -21,6 +21,7 @@
             RC(0,0) RC(0,1) RC(0,2)
         >;
     };
+};
 
 / {
     trackball_listener {
