@@ -1,5 +1,5 @@
 file_format: "1"
-id: Enigma_02
+id: enigma
 name: Enigma_02
 type: shield
 url: "https://github.com/enigma-key/zmk-config"
