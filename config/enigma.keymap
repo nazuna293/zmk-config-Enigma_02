@@ -53,13 +53,13 @@
 
         default_layer {
             bindings = <
-&mt TAB Q  &kp W         &kp E 
+&mt TAB Q  &kp W   &kp E 
             >;
         };
 
         layer_1 {
             bindings = <
-&kp K_UNDO  &kp K_UNDO    &kp K_UNDO
+&mt TAB Q  &kp W   &kp E 
             >;
         };
 
