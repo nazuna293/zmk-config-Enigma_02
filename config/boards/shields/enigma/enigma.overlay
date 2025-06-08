@@ -81,7 +81,7 @@
         mouse-actions {
             mouse-gesture-0 {
                 layers = <3>;
-                bindings = <&kp A>, <&kp B>, <&kp C>, <&kp D>;
+                bindings = <&kp A  &kp S  &kp D  &kp F>;
                 tick = <20>;
                 wait-ms = <100>;
                 tap-ms = <50>;
