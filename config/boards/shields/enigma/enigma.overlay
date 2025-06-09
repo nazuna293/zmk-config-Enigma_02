@@ -78,14 +78,14 @@
         scroll-layers = <2>;
         snipe-layers = <1>;
         automouse-layer = <0>;
-        # mouse-actions {
-            # mouse-gesture-0 {
-                # layers = <3>;
-                # bindings = <&kp>, <&kp>, <&kp>, <&kp>;
-                # tick = <20>;
-                # wait-ms = <100>;
-                # tap-ms = <50>;
-            # };
-        # };
+        // mouse-actions {
+            // mouse-gesture-0 {
+                // layers = <3>;
+                // bindings = <&kp>, <&kp>, <&kp>, <&kp>;
+                // tick = <20>;
+                // wait-ms = <100>;
+                // tap-ms = <50>;
+            // };
+        // };
     };
 };
