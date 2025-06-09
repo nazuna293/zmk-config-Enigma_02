@@ -73,7 +73,7 @@
         scroll-layers = <2>;
         snipe-layers = <1>;
         // automouse-layer = <0>;
-　　　　　 arrows {
+        arrows {
              layers = <3>;
              bindings =
                  <&kp RIGHT_ARROW>,
