@@ -77,7 +77,7 @@
         irq-gpios = <&gpio1 12 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         scroll-layers = <2>;
         snipe-layers = <1>;
-        automouse-layer = <0>;
+        // automouse-layer = <0>;
         arrows {
             layers = <3>;
             bindings =
@@ -86,8 +86,8 @@
                 <&kp UP_ARROW>,
                 <&kp DOWN_ARROW>;
             tick = <20>;
-            wait-ms = <100>;
-            tap-ms = <50>;
+            // wait-ms = <100>;
+            // tap-ms = <50>;
         };
     };
 };
