@@ -80,7 +80,8 @@
         automouse-layer = <0>;
         arrows {
             layers = <3>;
-            bindings = <&kp RIGHT_ARROW>,
+            bindings =
+                <&kp RIGHT_ARROW>,
                 <&kp LEFT_ARROW>,
                 <&kp UP_ARROW>,
                 <&kp DOWN_ARROW>;
