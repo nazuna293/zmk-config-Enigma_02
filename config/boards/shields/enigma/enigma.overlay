@@ -87,7 +87,7 @@
                 <&kp DOWN_ARROW>;
             tick = <20>;
             // wait-ms = <100>;
-            // tap-ms = <50>;
+            tap-ms = <50>;
         };
     };
 };
