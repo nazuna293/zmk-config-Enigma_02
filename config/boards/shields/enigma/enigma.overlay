@@ -34,8 +34,6 @@
     };
 };
 
-#include <dt-bindings/zmk/keys.h>
-
 &pinctrl {
     spi0_default: spi0_default {
         group1 {
@@ -75,20 +73,6 @@
         irq-gpios = <&gpio1 12 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         scroll-layers = <2>;
         snipe-layers = <1>;
-        // automouse-layer = <0>;
-        arrows {
-             layers = <3>;
-             bindings =
-                 <&kp RIGHT_ARROW>,
-                 <&kp LEFT_ARROW>,
-                 <&kp UP_ARROW>,
-                 <&kp DOWN_ARROW>;
-        
-             /*   optional: ball action configuration  */
-             tick = <10>;
-             // wait-ms = <5>;
-             // tap-ms = <5>;
-         };
     };
 };
 
