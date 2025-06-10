@@ -79,8 +79,39 @@
 &kp F1   &kp F2   &kp F3
             >;
         };
+
+        ARROW {
+            bindings = <
+&none   &none   &none
+            >;
+        };
+
+        MEDIA {
+            bindings = <
+&none   &none   &none
+            >;
+        };
+
+        CTRL_ALT_TAB_TB {
+            bindings = <
+&none   &none   &none
+            >;
+        };
+
+        ALT_TAB_TB {
+            bindings = <
+&none   &none   &none
+            >;
+        };
+
+        CTRL_TAB_TB {
+            bindings = <
+&none   &none   &none
+            >;
+        };
     };
 };
+
 
 &trackball {
     scroll-layers = <2>;
