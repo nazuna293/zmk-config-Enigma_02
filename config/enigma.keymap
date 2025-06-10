@@ -146,6 +146,18 @@
             >;
         };
 
+        layer_4 {
+            bindings = <
+&none   &none   &none
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&none   &none   &none
+            >;
+        };
+
         ARROW {
             bindings = <
 &none   &none   &none
