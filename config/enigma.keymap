@@ -38,7 +38,6 @@
             compatible = "zmk,behavior-macro-two-param";
             #binding-cells = <2>;
             bindings = <&macro_param_1to1 &to MACRO_PLACEHOLDER &macro_param_2to1 &kp MACRO_PLACEHOLDER>;
-            // label = "to_kp";
         };
 
         mo_to_0: mo_to_0 {
@@ -47,7 +46,6 @@
             tap-ms = <0>;
             #binding-cells = <1>;
             bindings =
-
                 <&macro_press>,
                 <&macro_param_1to1 &mo MACRO_PLACEHOLDER>,
                 <&macro_tap>,
@@ -56,8 +54,6 @@
                 <&macro_param_1to1 &mo MACRO_PLACEHOLDER>,
                 <&macro_tap>,
                 <&to 0>;
-
-            // label = "MO_to_0";
         };
     };
 
@@ -117,9 +113,7 @@
 
         lt_to_0: lt_to_0 {
             compatible = "zmk,behavior-hold-tap";
-            label = "LT_to_0";
             bindings = <&mo_to_0>, <&kp>;
-
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             quick-tap-ms = <200>;
@@ -230,6 +224,7 @@
             <&to_kp ALT_TAB_TB LS(TAB)>,
             <&to_kp CTRL_TAB_TB LCTRL>,
             <&to_kp CTRL_TAB_TB LS(LCTRL)>;
+
         tick = <10>;
     };
 
