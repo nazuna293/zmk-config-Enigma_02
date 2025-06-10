@@ -118,7 +118,7 @@
     // snipe-layers = <3>;
 
     arrows {
-        layers = <ARROW>;
+        layers = <4>;
         bindings =
             <&kp RIGHT_ARROW>,
             <&kp LEFT_ARROW>,
@@ -129,7 +129,7 @@
     };
 
      volume {
-         layers = <MEDIA>;
+         layers = <5>;
          bindings =
              <&none>,
              <&none>,
@@ -138,7 +138,7 @@
     };
 
     ctrl_alt_tab {
-        layers = <CTRL_ALT_TAB_TB>;
+        layers = <6>;
         bindings =
             <&to_kp ALT_TAB_TB TAB>,
             <&to_kp ALT_TAB_TB LS(TAB)>,
@@ -148,7 +148,7 @@
     };
 
     alt_tab {
-        layers = <ALT_TAB_TB>;
+        layers = <7>;
         bindings =
             <&kp TAB>,
             <&kp LS(TAB)>,
@@ -159,7 +159,7 @@
     };
 
     ctrl_tab {
-        layers = <CTRL_TAB_TB>;
+        layers = <8>;
         bindings =
             <&kp UP_ARROW>,
             <&kp DOWN_ARROW>,
