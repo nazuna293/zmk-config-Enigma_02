@@ -5,6 +5,14 @@
 
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 
+#define SCROLL 5
+#define ARROW 6
+#define MEDIA 7
+#define CTRL_ALT_TAB_TB 8
+#define ALT_TAB_TB 9
+#define CTRL_TAB_TB 10
+
+
 / {
     trackball_listener {
         compatible = "zmk,input-listener";
@@ -152,7 +160,7 @@
             >;
         };
 
-        layer_5 {
+        SCROLL {
             bindings = <
 &none   &none   &none
             >;
@@ -192,11 +200,11 @@
 
 
 &trackball {
-    scroll-layers = <2>;
+    scroll-layers = <SCROLL>;
     // snipe-layers = <3>;
 
     arrows {
-        layers = <4>;
+        layers = <ARROW>;
         bindings =
             <&kp RIGHT_ARROW>,
             <&kp LEFT_ARROW>,
@@ -207,7 +215,7 @@
     };
 
      volume {
-         layers = <5>;
+         layers = <MEDIA>;
          bindings =
              <&none>,
              <&none>,
@@ -216,7 +224,7 @@
     };
 
     ctrl_alt_tab {
-        layers = <6>;
+        layers = <CTRL_ALT_TAB_TB>;
         bindings =
             <&to_kp ALT_TAB_TB TAB>,
             <&to_kp ALT_TAB_TB LS(TAB)>,
@@ -226,7 +234,7 @@
     };
 
     alt_tab {
-        layers = <7>;
+        layers = <ALT_TAB_TB >;
         bindings =
             <&kp TAB>,
             <&kp LS(TAB)>,
@@ -237,7 +245,7 @@
     };
 
     ctrl_tab {
-        layers = <8>;
+        layers = <CTRL_TAB_TB>;
         bindings =
             <&kp UP_ARROW>,
             <&kp DOWN_ARROW>,
