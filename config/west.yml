@@ -2,8 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: enigma-key
-      url-base: https://github.com/enigma-key
+    - name: nazuna293
+      url-base: https://github.com/nazuna293
     - name: ssbb
       url-base: https://github.com/ssbb
     - name: caksoylar
@@ -14,7 +14,7 @@ manifest:
       revision: main
       import: app/west.yml
     - name: zmk-pmw3610-driver
-      remote: enigma-key
+      remote: nazuna293
       revision: main
     - name: zmk-listeners
       remote: ssbb
